@@ -10,7 +10,10 @@ phases:
       - echo Build completed on `date`
       - mvn package
 artifacts:
-  base-directory: 'target/'
+   #base-directory: 'target/'
   files:
-    - my-app.war
-  #discard-paths: yes
+    - target/my-app.war
+    - buildspec.yml
+    - appspec.yml
+    - scripts
+  discard-paths: yes
