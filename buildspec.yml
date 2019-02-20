@@ -15,5 +15,5 @@ artifacts:
     - target/my-app.war
     - buildspec.yml
     - appspec.yml
-    - scripts
+    - scripts/**/* 
   discard-paths: yes
